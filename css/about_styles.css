@@ -1,0 +1,50 @@
+.header {
+    background-image: url("../img/header.jpg");
+    background-image: no-repeat;
+    min-height: 120px;
+}
+.header, h1 {
+   text-align: left;
+  text-indent: 5px;
+  color: transparent;
+  width: cover;
+   color: white;
+}
+
+.image {
+	display: inline-block;
+	float: right;
+	padding: 1em 2em 0 2em;
+}
+.column {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 0 0 0 40px;
+}
+.main_text, p {
+	clear: both;
+	margin-left: 20px;
+	padding: 5px 0 0 0;
+
+	/*
+	font-family: "Times New Roman", Times, serif;*/
+
+}
+.skills {
+	color: #DarkGreen;
+	padding: 0 0 0 2em;
+	font-size: 1.2em;
+}
+.intro {
+	margin: 12px 0 12px 20px;
+}
+
+ul.socia-new {
+	list-style: none;
+	margin-left: 20px;
+	line-height: 1.8em;
+	width: auto;
+	display: inline-block;
+}
+
