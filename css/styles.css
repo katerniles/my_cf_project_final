@@ -1,7 +1,11 @@
 /*.bannerContainer {
     position:relative;   
 }*/
-
+body {
+    background-image: url("../img/background.jpg");
+    background-height: 100%;
+    background-repeat: no-repeat;
+ }
 #carousel {
     position: fixed;
     padding-top: 120px;
@@ -46,8 +50,7 @@ a.carousel-caption2  {
 }
 
 .carousel,.item,.active{height:100%;}
-.carousel-inner{height:100%;
-}
+.carousel-inner{height:100%;}
 
 .white-h2 {
     font-size: 5em;
@@ -62,22 +65,24 @@ a.carousel-caption2  {
     text-transform: uppercase;
 }
 .nav {
-    width:100%;
-    float: right;
-    position: fixed;
-    display: inline;
-    height: 2em;
+    float: left;
+    position: absolute;
+     display: block;
+    height: 5%;
+   z-index: 10;
+   width: 100%;
 }
 .nav ul {
-    float: right;
-    display: block;
+    float: left;
+      display: block;
     list-style: none;
-    font-size: 1.1em;
     font-weight: bold;
-    width: 30%;
-    padding: 4px 0 0 0;
-
+    font-size: 1.1em;
+    width: 100%;
+    padding: 4px;
+    text-transform: capitalize;   
 }
+
 a:link, a:visited {
     display: inline;
     width: auto;
@@ -86,20 +91,21 @@ a:link, a:visited {
     float: right;
     padding: .75em;
     text-decoration: none;
-    text-transform: uppercase;
-    background-color: white;
-}
+
+ }
 .header {
     background-image: url("../img/header.jpg");
     background-image: no-repeat;
     min-height: 140px;
-    width: cover;
+    width: 100%;
 }
 .header, h1 {
    text-align: left;
    width: cover;
    color: white;
    padding: .5em 0 0 2em;
+   width: 100%;
+ padding-top: 20px;
 }
 
 p a:link, a:visited {
@@ -108,6 +114,7 @@ p a:link, a:visited {
     padding: 3em 1em 3em 0;
     text-transform: none;
     text-align:  left;
+    /* background-color:  transparent; */
 }
 /* mouse over link */
 p, li a:hover {
@@ -132,5 +139,7 @@ h1, h2, h3 {
     font-weight: 100;
     ~web-kit-margin-before: 0;
 }
-
-
+p, li {
+    font-size: 1.2em;
+    margin: auto 4em auto 4em !important;
+}

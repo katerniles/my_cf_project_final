@@ -11,63 +11,36 @@
   width: cover;
    color: white;
 }
-.container {
-    position: relative;
-    top: 65px;
-    width: 80%;
-    margin: 0 auto;
-    line-height: 2.2;
-}
-
-/*@media (min-width: 768px) {
-    .carousel-caption p {
-            margin-bottom: 20px;
-            font-size: 21px;
-            line-height: 1.4;
-    }*/
-#skill_list {
-	margin-left: 50px;
-
-}
-.indent-one {
-    margin-left: 8%;
-}
-.skills h3 {
-    text-align: center;
-    text-transform: uppercase;
-}
-#nav {
-    float: right;
+/*
+.nav {
+    float: left;
     position: absolute;
-    width: 100%;
-    display: inline;
+     display: block;
     height: 5%;
-    z-index: 10;
+   z-index: 10;
+   width: 100%;
 }
-#nav ul {
-    float: right;
-    margin-right: 10%;
-    display: block;
+.nav ul {
+    float: left;
+      display: block;
     list-style: none;
-    font-size: 1.1em;
     font-weight: bold;
-    color: white;
+    font-size: 1.1em;
     width: 100%;
-    height: 140px;
     padding: 4px;
-
+    
+}
+*/
 a:link, a:visited {
     display: inline;
     width: auto;
     font-weight: bold;
     font-size: 1.1em;
-    color: #DarkGreen;
     float: right;
-    padding: 4px;
-    /* margin-right:  20px; */
+    padding: .75em;
     text-decoration: none;
-    text-transform: ;
-}
+    
+ }
 
 p a:link, a:visited {
     display: inline;
@@ -85,29 +58,17 @@ p, li {
     font-size: 1.2em;
     font-weight: 600;
 }
-/*Typography*/
+
 h1, h2, h3 {
 	font-family: Futura, Helvetica, Arial, sans-serif;
     font-weight: bolder;
 }
-.intro h2 {
-	font-family: Futura, Helvetica, Arial, sans-serif;
-    font-size: 3em;
-    ~web-kit-margin-before: 0;
 
-}
-.panel-heading {
-    overflow: hidden;
-  height: 10px;
-}
-.panel-title-new {
-    height: .2em;
-     background-color: transparent;
-}
-.btn-primary-new{
-    background-color: DarkGrey; !important
-    padding-bottom: .5em;
-}
-#collapse {
+
+h4 {
     background-color: transparent;
 }
+p li {
+    background-color: white;
+    margin: auto 20% auto auto; 
+ }
