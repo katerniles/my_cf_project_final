@@ -1,16 +1,3 @@
-.header {
-    background-image: url("../img/header.jpg");
-    background-image: no-repeat;
-    min-height: 120px;
-}
-.header, h1 {
-   text-align: left;
-  text-indent: 5px;
-  color: transparent;
-  width: cover;
-   width:  100%;
-   color: white;
-}
 
 .image {
 	display: inline-block;
@@ -21,15 +8,13 @@
 	display: inline-block;
 	float: left;
 	width: 50%;
-	padding: 0 0 0 40px;
+	padding: 0 0 0 5em;
 }
 .main_text, p {
 	clear: both;
-	margin-left: 20px;
-	padding: 5px 0 0 0;
+	margin-left: 5em;
+	padding: 1em 0 0 0;
 
-	/*
-	font-family: "Times New Roman", Times, serif;*/
 
 }
 
@@ -39,14 +24,14 @@
 	font-size: 1.2em;
 }
 .intro {
-	margin: 12px 0 12px 20px;
+	margin: 1.5em 0 1.5em 20%;
 }
 
 ul.socia-new {
 	list-style: none;
-	margin-left: 20px;
-	line-height: 1.8em;
+	margin-left: 10%;
 	width: auto;
 	display: inline-block;
+	font-size: 2em;
 }
 

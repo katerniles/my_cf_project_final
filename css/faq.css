@@ -1,63 +1,13 @@
 
-.header {
-    background-image: url("../img/header.jpg");
-    background-image: no-repeat;
-    min-height: 120px;
-}
-.header, h1 {
-   text-align: left;
-  text-indent: 5px;
-  color: transparent;
-  width: cover;
-   color: white;
-}
-/*
-.nav {
-    float: left;
-    position: absolute;
-     display: block;
-    height: 5%;
-   z-index: 10;
-   width: 100%;
-}
-.nav ul {
-    float: left;
-      display: block;
-    list-style: none;
-    font-weight: bold;
-    font-size: 1.1em;
-    width: 100%;
-    padding: 4px;
-    
-}
-*/
-a:link, a:visited {
-    display: inline;
-    width: auto;
-    font-weight: bold;
-    font-size: 1.1em;
-    float: right;
-    padding: .75em;
-    text-decoration: none;
-    
- }
 
-p a:link, a:visited {
-    display: inline;
-    float: none;
-    padding: 3em;
-    text-transform: none;
-    color:  white;
-    size: 5em;
-}
 /* mouse over link */
 p, li a:hover {
-    font-size: 1.3em;
+    font-size: 1em;
 }
 p, li {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 600;
-}
+ }
 
 h1, h2, h3 {
 	font-family: Futura, Helvetica, Arial, sans-serif;
@@ -68,7 +18,9 @@ h1, h2, h3 {
 h4 {
     background-color: transparent;
 }
-p li {
-    background-color: white;
-    margin: auto 20% auto auto; 
+
+ p {
+  font-size: 1em;
+  color: black;
  }
+ 
