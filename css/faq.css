@@ -2,10 +2,10 @@
 
 /* mouse over link */
 p, li a:hover {
-    font-size: 1em;
+    font-size: 1.2em;
 }
 p, li {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 600;
  }
 
@@ -17,10 +17,18 @@ h1, h2, h3 {
 
 h4 {
     background-color: transparent;
-}
+ }
 
  p {
   font-size: 1em;
   color: black;
  }
- 
+ .panel {
+	background-color: transparent !important;
+ }
+ .container {
+ 	width: 75% !important;
+ }
+ p, li .container {
+ 	font-size: 1.2em;
+ }

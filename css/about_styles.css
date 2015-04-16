@@ -12,19 +12,22 @@
 }
 .main_text, p {
 	clear: both;
-	margin-left: 5em;
+	margin-left: 5%;
 	padding: 1em 0 0 0;
-
-
+	margin-right: 20%;
 }
 
-.skills {
+.skills-column, h3 {
 	color: #DarkGreen;
-	padding: 0 0 0 2em;
+	margin-left: 1%;
 	font-size: 1.2em;
 }
-.intro {
-	margin: 1.5em 0 1.5em 20%;
+.skills h3 {
+	text-align: left;
+	margin-left: 5%;
+}
+.intro, h2 {
+	margin left: 5%;
 }
 
 ul.socia-new {

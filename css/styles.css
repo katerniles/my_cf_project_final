@@ -4,7 +4,8 @@
 body {
     background-image: url("../img/background.jpg");
 background-attachment: fixed;
-  
+}
+
 }
 .button-link {
     padding: 2px;
@@ -42,55 +43,57 @@ background-attachment: fixed;
 }
 #carousel {
     position: relative;
-        
-    /* width: 100%; */
-    /* bottom: 0; */ /* 
-    min-height: 1%;
-    max-height: 30%;*/
+    margin: 0 auto;
+      
+    height: 450;    
+    z-index:  14;
 }
 .carousel-caption {
     top: 1%;
      max-height: 50%;
 }   
 
-.carousel .item {
-    width: 100%;
-    /* height: 30%; */
-    /* max-height: 30%; */
+.carousel-inner {
+    margin: 0 auto;
 }
-
 .carousel-inner > .item > img {
-     left: 0;
-    top: 0;
-    max-width: 100%
-    height: 100%;
+    width: 800px !important;
+    height: 360px !important; 
+    margin: 0 auto;
 }
 
-a.carousel-caption2  {
-    color: gold;
-    font-size: 2em;
-    text-align: left;
-
-}
 .carousel-caption h3 {
     color: gold;
     font-size: 2em;
-   text-align: left;
+   text-align: center;
+
 }
-@media (min-width: 80%) {
+/* large desktop */
+@media (min-width: 1200px) {
     .carousel-caption p {
             font-size: 1.5em;
             line-height: 1.4;
 }
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px)
+   .carousel-caption p {
+            font-size: 1.5em;
+            line-height: 1.4;
+            bottom: 30%;
 }
-
-.carousel,.item,.active{/* height: 30%; */}
-.carousel-inner{/* height: 14%; */}
-
-.white-h2 {
-    font-size: 5em;
-    color: white;
+/* landscape phone to portrait tablet */
+@media (max-width: 767px) {
+   .carousel-caption p {
+            font-size: 1.5em;
+            line-height: 1.4;
 }
+/* landscape phones and down */
+@media (max-width: 480px) {
+       .carousel-caption p {
+            font-size: 1.5em;
+            line-height: 1.4;
+        }
+        }
 
 #skill_list {
 	margin-left: 1em;
@@ -102,14 +105,14 @@ a.carousel-caption2  {
 .nav { width: 100%; }
 .nav ul { list-style: none; text-transform: capitalize; padding: 0px; margin: 0px; font-size: 2em; font-weight: bold; text-align: center; }
 .nav ul li { display: inline-block; }
-.nav ul li a { display: block; padding: 0 0 0 0; text-decoration: none; color: #444; }
+.nav ul li a { display: inline-block; padding: 0 0 0 0; text-decoration: none; color: #444; }
 .nav ul li a:hover { background-color: #888; color: #fff; }
 
 @media (max-width:48.000em){
     .example-header .container { width: 100%; }
     .nav ul { width: 100%; font-weight: normal; }
-    .nav ul li { width: 50%; float: left; }
-    .nav ul li:nth-of-type(odd) a { border-right: 1px solid #ccc; }
+    .nav ul li { width: 100%; float: left; background-image: url("../img/background.jpg"); font-size:  .75em;}
+    .nav ul li:nth-of-type(odd) a { }
     .nav ul li a { padding: 8px 0px; border-bottom: 1px solid #ccc; display: block; }
 }
 .map_container{
@@ -127,14 +130,11 @@ a.carousel-caption2  {
     padding: 0;
 }
 
-
 a:link, a:visited {
     display: inline;
     width: auto;
      font-size: 1em;
-    float: right;
-    padding: .75em;
-
+ 
  }
 .header {
     min-height: 20%;
@@ -142,19 +142,18 @@ a:link, a:visited {
 }
 .header, h1 {
    text-align: left;
-   width: cover;
-
-   padding: 0 0 0 .5em;
-   width: 100%;
+    margin-left: 2%;
+    padding-left: 2em;
    padding-bottom: .25em;
  
 }
 p a:link, a:visited {
     display: inline;
-    float: none;
-    padding: 0;
+    /* float: left; */
+    /* padding: 0; */
     text-transform: underline;
     color: blue;
+    /* font-size:  2em; */
 }
 /* mouse over link */
 p, li a:hover {
@@ -166,8 +165,7 @@ p, li {
 .carousel-indicators {
     background-color: DarkGrey;
     width: 20% !important;
-    position: absolute;
-    bottom: 30% !important;
+    position: relative;
 }
 /*Typography*/
 h1, h2, h3 {
@@ -179,6 +177,7 @@ h1, h2, h3 {
     font-size: 2em;
     font-weight: 100;
     ~web-kit-margin-before: 0;
+	margin-left:  5%;
 }
 p, li {
     font-size: 1.2em;
